@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+html {
+  font-family: "Droid Arabic Kufi", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+:root {
+  --light: #f5f5f5;
+  --dark: #111020;
+  --main-color: #f12711;
+  --silver: #e9e9e9;
+
+  --light-hover: rgba(0, 0, 0, 0.2);
+
+  --transition: 0.3s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: #fff;
+  color: var(--dark);
+}
+
+/* Container */
+.container {
+  width: 80%;
+  padding: 0 15px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.active {
+  color: var(--main-color) !important;
+  border-color: var(--main-color) !important;
+  font-weight: bold;
+}
+.active2 {
+  background: #f12711; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f5af19,
+    #f12711
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+button,
+select,
+input {
+  font-family: "Droid Arabic Kufi", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+button {
+  cursor: pointer;
+}
